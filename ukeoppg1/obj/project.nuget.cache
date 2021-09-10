@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V3PaWktP+YKlcI9Cn90YdjYxdmw6o1m3dD8KilHdITrTKIUUOM7EvPU60DlnnjQ42IdZvr2Sy5XWsglh9a7Jog==",
+  "dgSpecHash": "BW0giVazrUVbsVgvRsjkKGUQd5Zg45liJuFiJO8wODIU+t0xCf8hhNr2FW8q2cFeuRtNTzwRimRXHQWAv0Ef/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Suhai\\webapplikasjoner_C#\\ukeoppg1\\ukeoppg1.csproj",
+  "projectFilePath": "C:\\Users\\Suhai\\webapplikasjonerNet\\ukeoppg1\\ukeoppg1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Suhai\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.9\\microsoft.data.sqlite.core.5.0.9.nupkg.sha512",
     "C:\\Users\\Suhai\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

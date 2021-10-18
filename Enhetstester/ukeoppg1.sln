@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ukeoppg1", "ukeoppg1.csproj", "{A39F4C26-66E4-48AA-9877-F2D2F6FC6CCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "..\XUnitTestProject1\XUnitTestProject1.csproj", "{EEB8F6E0-56C4-4A7A-8860-768C6E2972B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A39F4C26-66E4-48AA-9877-F2D2F6FC6CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39F4C26-66E4-48AA-9877-F2D2F6FC6CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39F4C26-66E4-48AA-9877-F2D2F6FC6CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39F4C26-66E4-48AA-9877-F2D2F6FC6CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB8F6E0-56C4-4A7A-8860-768C6E2972B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB8F6E0-56C4-4A7A-8860-768C6E2972B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB8F6E0-56C4-4A7A-8860-768C6E2972B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB8F6E0-56C4-4A7A-8860-768C6E2972B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3077418-2566-4D37-B338-E4F4335C50EC}
+	EndGlobalSection
+EndGlobal

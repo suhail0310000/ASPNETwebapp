@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
@@ -16,6 +17,8 @@ namespace ukeoppg1.Controllers
         private readonly IKundeRepository _DB;
 
         private ILogger<KundeController> _log;
+
+        private const string _loggetInn = "loggetInn";
 
         public KundeController(IKundeRepository Db, ILogger<KundeController> log)
         {
@@ -42,6 +45,12 @@ namespace ukeoppg1.Controllers
 
         public async Task<ActionResult> HentAlle()
         {
+            //List<Kunde> alleKunder = await _DB.HentAlle();
+            //return Ok(alleKunder);
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString(_loggetInn)))
+            {
+                return Unauthorized();
+            }
             List<Kunde> alleKunder = await _DB.HentAlle();
             return Ok(alleKunder);
         }
@@ -92,12 +101,19 @@ namespace ukeoppg1.Controllers
                 if (!returnOK)
                 {
                     _log.LogInformation("Innloggingen feilet for bruker" + bruker.Brukernavn);
+                    HttpContext.Session.SetString(_loggetInn, "");
                     return Ok(false);
                 }
-                return Ok(true);
+                HttpContext.Session.SetString(_loggetInn, "LoggetInn");
+                return Ok(true);    
             }
             _log.LogInformation("Feil i inputvalidering");
             return BadRequest("Feil i inputvalidering på server");
+        }
+
+        public void LoggUt()
+        {
+            HttpContext.Session.SetString(_loggetInn, "");
         }
     }
 }

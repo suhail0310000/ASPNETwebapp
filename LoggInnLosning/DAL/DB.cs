@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ukeoppg1.Models
 {
-    //KundeAPPDAL
+    //KundeAPPDAL (LogginnløsningApp)
     public class Kunder
     {
         public int Id { get; set; }

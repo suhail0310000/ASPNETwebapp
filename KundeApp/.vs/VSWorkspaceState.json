@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Controllers",
     "\\Models",
     "\\wwwroot"
   ],
-  "SelectedNode": "\\Models\\DBInit.cs",
+  "SelectedNode": "\\Controllers\\KundeController.cs",
   "PreviewInSolutionExplorer": false
 }

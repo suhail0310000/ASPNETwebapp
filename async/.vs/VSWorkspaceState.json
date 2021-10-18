@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Models"
   ],
-  "SelectedNode": "\\ukeoppg1.sln",
+  "SelectedNode": "\\Models\\DB.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -25,6 +25,7 @@ function endreKunde() {
     console.log(kunde);
     $.post("Kunde/Endre", kunde, function (OK) {
         if (OK) {
+            console.log(kunde.navn);
             window.location.href = 'index.html';
         }
         else {

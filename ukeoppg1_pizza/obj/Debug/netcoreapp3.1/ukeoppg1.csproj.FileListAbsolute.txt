@@ -148,3 +148,5 @@ C:\Users\Suhai\webapplikasjonerNet\ukeoppg1_pizza\obj\Debug\netcoreapp3.1\ukeopp
 C:\Users\Suhai\webapplikasjonerNet\ukeoppg1_pizza\obj\Debug\netcoreapp3.1\ukeoppg1.dll
 C:\Users\Suhai\webapplikasjonerNet\ukeoppg1_pizza\obj\Debug\netcoreapp3.1\ukeoppg1.pdb
 C:\Users\Suhai\webapplikasjonerNet\ukeoppg1_pizza\obj\Debug\netcoreapp3.1\ukeoppg1.genruntimeconfig.cache
+C:\Users\Suhai\webapplikasjonerNet\ukeoppg1_pizza\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Suhai\webapplikasjonerNet\ukeoppg1_pizza\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
